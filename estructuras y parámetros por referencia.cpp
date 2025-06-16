@@ -33,7 +33,7 @@ bool imprimirRect(const Rect& r, int& xFin, int& yFin)
     return true;
 }
 
-// 3.5  CheckOverlap sirve para detectar si dos rectangulos se trasladan usando reglas geometricas de no-superposicion.
+// 3.5  Verifica si dos rectangulos se trasladan o se interseptan.
 bool CheckOverlap(const Rect& a, const Rect& b) 
 {
     if (a.x >= b.x + b.ancho || b.x >= a.x + a.ancho)

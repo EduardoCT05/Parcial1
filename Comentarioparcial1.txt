@@ -1,0 +1,7 @@
+1.- la Fuente que Use fue: https://cplusplus.com/ y la ayuda de Un amigo que esta Estudiando Software en la Unam.
+2.-  CheckOverlap(r1, r2) ? "Si" : "No"? es una abreviación de if (CheckOverlap(r1, r2)) 
+    cout << "Si";
+else 
+    cout << "No"; 
+para usarse en una sola linea Utilizando el operador terniario. y lo que hace es evaluar los dos rectángulos para saber si se trasladan o superponen. y devuelve el valor booleano: True si se trasladan o retornan, o False si no se trasladan o retornan
+3.- okey profe, gracias por el comentario, lo tendre en cuenta.
